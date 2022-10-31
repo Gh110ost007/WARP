@@ -1,0 +1,143 @@
+.con {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+
+
+.map iframe {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin: 110px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.3);
+}
+
+
+.co {
+    background: rgba(27, 31, 34, 0.40);
+    float: left;
+    width: 640px;
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.1);
+    margin-top: 40px;
+    margin-left: 150px;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.co .title h2 {
+    letter-spacing: 6px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+
+.co .half {
+    display: flex;
+    justify-content: space-between;
+}
+
+.co .half .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+}
+
+.co label {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3.5px;
+    margin-bottom: 16px;
+}
+
+.co .half .item input {
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    width: 100%;
+    height: 44px;
+    background: transparent;
+    font-size: 17px;
+}
+
+.co .full {
+    margin-bottom: 24px;
+}
+
+.co .full textarea {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 12px 16px;
+    width: 100%;
+    height: 200px;
+    font-size: 17px;
+}
+
+.co .action {
+    margin-bottom: 32px;
+}
+
+.co .action input {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    height: 44px;
+    letter-spacing: 3px;
+    outline: 0;
+    padding: 0 20px 0 22px;
+    margin-right: 10px;
+}
+
+.co .action input[type="submit"] {
+    background: white;
+    color: black;
+}
+
+.co .icons a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    width: 38px;
+    margin-right: 10px;
+}
+
+.co .half .item input:focus,
+.co .full textarea:focus,
+.co .action input[type="reset"]:hover,
+.co .icons a:hover {
+    background: rgba(255, 255, 255, 0.075);
+}
+
+@media (max-width: 480px) {
+    .co .half {
+        flex-direction: column;
+    }
+
+    .co .half .item {
+        width: 100%;
+    }
+
+    .co .action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .co .action input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
