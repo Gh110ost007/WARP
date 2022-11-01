@@ -12,10 +12,10 @@
 }
 
 .gBtn:hover {
-    background: aqua;
-    color: aqua;
+    background: rgb(61, 69, 143);
+    color: rgb(61, 69, 143);
     letter-spacing: 0.25em;
-    box-shadow: 0 0 35px aqua;
+    box-shadow: 0 0 35px rgb(61, 69, 143);
 }
 
 .gBtn:before {
