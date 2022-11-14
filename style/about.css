@@ -14,14 +14,6 @@
     padding: 0 10px;
 }
 
-.con {
-    translateY(100px)
-}
-
-.wrapper {
-    translateY(100px)
-}
-
 .all-text {
     width: 600px;
     top: 40%;
@@ -88,7 +80,7 @@
     color: white;
 }
 
-.full input {
+.full textarea {
     color: white;
 }
 
@@ -97,7 +89,11 @@
 }
 
 .wrapper icon {
-    float: bottom-left
+    float: bottom-left;
+}
+
+.co .action input {
+    background: white;
 }
 
 @media screen and (max-width:1250px) {
