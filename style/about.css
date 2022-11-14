@@ -96,6 +96,10 @@
     background-color: white;
 }
 
+.wrapper icon {
+    float: bottom-left
+}
+
 @media screen and (max-width:1250px) {
     .about {
         width: 100%;
