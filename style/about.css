@@ -14,6 +14,14 @@
     padding: 0 10px;
 }
 
+.con {
+    translateY(100px)
+}
+
+.wrapper {
+    translateY(100px)
+}
+
 .all-text {
     width: 600px;
     top: 40%;
