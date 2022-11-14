@@ -75,6 +75,18 @@
     color: white;
 }
 
+.half input {
+    color: white;
+}
+
+.full input {
+    color: white;
+}
+
+.action reset {
+    background: white;
+}
+
 @media screen and (max-width:1250px) {
     .about {
         width: 100%;
