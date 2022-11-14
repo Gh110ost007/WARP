@@ -102,6 +102,10 @@
     background: white;
 }
 
+.co .action input[type="reset"]:hover {
+    background: white;
+}
+
 .co .action input[type="submit"] {
     background: white;
     color: black;
