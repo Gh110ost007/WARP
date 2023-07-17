@@ -5,6 +5,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.end {
+
+    color: #e9e9e9;
+    font-size: 12px;
+    opacity: 20%;
+
+}
+
+.end a {
+    color: #e9e9e9;
+    text-decoration: none
+}
+
+.end .fa {
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
+
 
 .grid-container::after {
     content: '';
